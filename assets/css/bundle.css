@@ -1,6 +1,13 @@
 /* Sizes */
 /* End Sizes */
-body {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   padding: 0;
   margin: 0;
 }
@@ -30,12 +37,12 @@ a {
   align-items: center;
   justify-content: center;
   width: 250px;
-  height: 160px;
+  height: 140px;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Prata";
   color: #F2CCB7;
-  background-color: #A80000;
+  background-color: #f02394;
 }
 
 .header-nav {
@@ -87,13 +94,59 @@ a {
 }
 
 .welcome-container {
+  position: relative;
   max-width: 1400px;
   width: 100%;
   height: 100%;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.welcome-title {
+  font-size: 60px;
+  font-family: "Inter";
+  font-weight: lighter;
+  color: #6255da;
+}
+
+.welcome-paragraph {
+  font-size: 28px;
+  font-family: "Inter";
+  font-weight: lighter;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.welcome-button {
+  cursor: pointer;
+  font-size: 24px;
+  font-family: "Inter";
+  padding: 16px 40 px;
+  color: #000;
+  border: 2px solid #FFFFE0;
+}
+
+.about-container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-family: "Inter";
+  font-size: 80px;
+  font-weight: bold;
+  color: black;
+}
+
+.about-paragraph {
+  font-family: "Inter";
+  font-size: 42px;
+  font-weight: 300;
+  color: rgb(185, 32, 127);
 }
 
 /* End Home */
